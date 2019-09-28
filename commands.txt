@@ -1,0 +1,62 @@
+    1  ls -lta
+    2  df
+    3  init 0
+    4  df
+    5  cat /etc/fstab 
+    6  alias c=clear
+    7  cl
+    8  cls
+    9  c
+   10  cat /etc/sysconfig/network-scripts/ifcfg-eth0
+   11  ip a
+   12  c
+   13  df -l
+   14  alias cls=clear
+   15  git --version
+   16  sudo yum install git -y
+   17  cls
+   18  git --version
+   19  cls
+   20  git clone https://github.com/Prakashja/day1.git
+   21  pwd
+   22  ls -lta
+   23  cd day1/
+   24  ls lta
+   25  ls -lta
+   26  vi dev1.txt
+   27  vi dev.txt
+   28  git status
+   29  git add dev.txt
+   30  git add dev1.txt
+   31  git commit -m "Current modification"
+   32  cd /opt/
+   33  sudo yum install wget 
+   34  sudo wget https://download.oracle.com/otn/java/jdk/8u221-b11/230deb18db3e4014bb8e3e8324f81b43/jdk-8u221-linux-x64.rpm?AuthParam=1569657127_1a0cf6b9720888db7683b195ea2b3cf2
+   35  sudo rpm -ivh jdk-8u221-linux-x64.rpm?AuthParam=1569657127_1a0cf6b9720888db7683b195ea2b3cf2
+   36  sudo alternatives --config java
+   37  sudo vi /etc/profile/
+   38  sudo vi /etc/profile
+   39  source /etc/profile
+   40  java -version
+   41  sudo wget http://apachemirror.wuchna.com/maven/maven-3/3.6.2/binaries/apache-maven-3.6.2-bin.tar.gz
+   42  ls -ltr
+   43  sudo tar -xvf apache-maven-3.6.2-bin.tar.gz 
+   44  cls
+   45  clear
+   46  sudo rm -rf apache-maven-3.6.2-bin.tar.gz 
+   47  sudo mv apache-maven-3.6.2/ maven
+   48  ls -ltr
+   49  sudo vi /etc/profile.d/maven.sh
+   50  source /etc/profile.d/maven.sh
+   51  mvn --version
+   52  history
+   53  cd ..
+   54  ls -lta
+   55  cd root/
+   56  cd /home/
+   57  ls -lta
+   58  cd ec2-user/
+   59  ls -lta
+   60  cd DevD/
+   61  ls -lta
+   62  history >> commands.txt
